@@ -6,7 +6,7 @@ import { ItemComponent } from './item/item.component';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, ItemComponent],
   templateUrl: "./app.component.html",
   styleUrl: './app.component.css'
 })
